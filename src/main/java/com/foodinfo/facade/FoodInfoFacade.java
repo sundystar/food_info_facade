@@ -21,4 +21,12 @@ public interface FoodInfoFacade {
 	 */
 	APIResult foodList(APIRequest apiRequest);
 
+	/**
+	 * 
+	 * 添加
+	 * @param apiRequest
+	 * @return
+	 */
+	APIResult addFood(APIRequest apiRequest);
+
 }
